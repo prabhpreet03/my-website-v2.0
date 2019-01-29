@@ -82,5 +82,61 @@ h2{
     background-color: #161E21;
     color: white;
     padding: 100px;
+}
+.photos-header{
+    font-family: Montserrat;
+    font-size:40px;
+    font-style: bold;
+    color: #161E21;
+    display: grid;
+    grid-template-rows: 500px 500px;
+    grid-template-columns: 240px;
+}
+.mid-section-visual{
+    display:grid;
+    grid-template-columns: 400px 1000px;
+    grid-gap: 20px;
 
+}
+.photos-grid{
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 20px;
+}
+.ind-photo{
+    width: 200px;
+    height: 130px;
+}
+.photos-header{
+    padding-left: 150px;
+    padding-top: 250px;
+    margin-top: -60px;
+    background-color: #E6FF0D;
+    color: #161E21;
+    width: 486px;
+    height: 300px;
+    margin-bottom: -30px;
+}
+.youtube-links , .photos-grid{
+    background-color: #161E21;
+    width: 954px;
+    height:500px;
+    padding-left: 60px;
+    padding-top: 50px;
+    margin-top: -60px;
+    margin-left: 100px;
+}
+.youtube-links{
+    display: grid;
+    grid-template-rows: 150px;
+    grid-template-columns: 400px 400px;
+    grid-gap: 40px;
+    padding-left: 30px;
+    padding-right: 60px;
+}
+.ind-link{
+    width: 30px;
+    height: 50px;
+    
 }

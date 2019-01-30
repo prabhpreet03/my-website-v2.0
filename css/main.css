@@ -140,6 +140,40 @@ h2{
     height: 50px;
     
 }
-.temp-alert{
-  color:#ffffff;
+.mid-section-design{
+    background-color:#161E21;
+    margin: 0px 0px;
+    width:1440px;
+    height: 2500px;
 }
+.ui-grid{
+    padding:30px;
+    justify-content: center;
+}
+.ui-photo{
+    size: 60%;
+    padding: 20px;
+}
+.design-title{
+    text-align: left;
+    color: #EAEAEA;
+    padding-left:10px;
+    padding-top: -10px
+    
+}
+.numbered-designs{
+    text-align: left;
+    color: #EAEAEA;
+    padding: 0px 10px;
+}
+.social-media-links-design{
+    display: grid;
+    justify-content: center;
+    margin-bottom:50px;
+    grid-template-columns: 40px 40px 40px 40px;
+    grid-template-rows: 20px;
+    grid-gap: 50px;
+}
+.temp-alert{
+    color:#ffffff;
+  }

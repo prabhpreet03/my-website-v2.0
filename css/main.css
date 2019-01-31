@@ -4,6 +4,7 @@ body, html {
   padding: 0px;
   margin:0px;
   background-color: rgb(241, 241, 241);
+    overflow-x: hidden;
 }
 .main-nav-bar{
     padding: 20px;

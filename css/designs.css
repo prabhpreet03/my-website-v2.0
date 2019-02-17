@@ -51,7 +51,7 @@ header{
 .mid-section-design{
     background-color:#161E21;
     margin: 0px 0px;
-    width:1440px;
+    width:auto;
     height: 2500px;
 }
 .light-container{

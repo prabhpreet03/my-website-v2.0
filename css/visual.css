@@ -36,30 +36,36 @@ header{
 }
 .mid-section-visual{
     display:grid;
-    grid-template-columns: 20% auto;
-    grid-template-rows: 1000px;
+    grid-template-columns: 10% auto;
+    grid-template-rows: 500px;
 }
 .photos-grid{
     justify-content: center;
-    align-content: center;
-    background-color: #161E21;
+    /* align-content: center; */
+    background-color: rgb(255, 255, 255);
     display: grid;
     grid-template-rows: 130px 130px 130px;
     grid-template-columns: 200px 200px 200px;
     grid-gap: 20px;
+    padding-top: 25px;
+
 }
 .ind-photo{
     width: 200px;
     height: 130px;
 }
 .photos-header-text{
-    text-align: center;/*why is this not putting them in center? */
-    align-content: center;/*why is this not putting them in center? */
-    color: #161E21;
-    font-size:40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size:20px;
+    background-color: #002588;
+    margin: 0 0 0 50px;
+    padding: 25px;
+
+    
 }
 .photos-header{
-    background-color: #E6FF0D;
+    /* background-color: #E6FF0D; */
 }
 .light-container{
     background-color:#EAEAEA;

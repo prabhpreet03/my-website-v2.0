@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300|Roboto+Condensed');
+body, html {
+  font-family: 'Montserrat', 'sans-serif';
+  padding: 0px;
+  margin:0px;
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+  
+}
+.main-nav-bar{
+    padding: 20px;
+}
+
+.blue-logo{
+    width: 263px;
+    height: 113px;
+}
+.navbar{
+    list-style-type: none;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: #002588;
+    font-size: 24px;
+}
+header{
+    display: flex; 
+    justify-content: space-between;
+    margin:0;
+    padding: 10px 30px 0px 30px;
+    width: auto;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.mid-section-visual{
+    display:grid;
+    grid-template-columns: 20% auto;
+    grid-template-rows: 1000px;
+}
+.photos-grid{
+    justify-content: center;
+    align-content: center;
+    background-color: #161E21;
+    display: grid;
+    grid-template-rows: 130px 130px 130px;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 20px;
+}
+.ind-photo{
+    width: 200px;
+    height: 130px;
+}
+.photos-header-text{
+    text-align: center;/*why is this not putting them in center? */
+    align-content: center;/*why is this not putting them in center? */
+    color: #161E21;
+    font-size:40px;
+}
+.photos-header{
+    background-color: #E6FF0D;
+}
+.light-container{
+    background-color:#EAEAEA;
+    width: auto;
+    height:100px;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+.social-media-links{
+    display: grid;
+    justify-content: center;
+    margin-bottom:50px;
+    grid-template-columns: 40px 40px 40px 40px;
+    grid-template-rows: 20px;
+    grid-gap: 50px;
+}
+.last-line{
+    justify-content: center;
+    background-color: blue;
+    display: grid;
+    grid-template-rows: 800px;
+    width: auto;
+    padding: 50px auto;
+}

@@ -48,21 +48,13 @@ header{
     padding: 5px 100px; 
     margin: 0 auto;  
 }
-.mid-section-visual{
-    /* display:grid;
-    grid-template-columns: 10% auto;
-    grid-template-rows: 500px; */
-}
+
 .photos-grid{
     justify-content: center;
     background-color: rgb(255, 255, 255);
      display: flex;
      flex-direction: column;
      justify-content: space-evenly;
-
-    /*grid-template-rows: 130px 130px 130px;
-    grid-template-columns: 200px 200px 200px;
-    grid-gap: 20px; */
     padding-top: 25px;
 }
 .photos-grid-one{
@@ -124,4 +116,46 @@ header{
 .ind-link{
     width: 30px;
     height: 50px;   
+}
+@media (max-width:414px){
+    .blue-logo{
+        display: none;
+    }
+    .navbar a{
+        display: none;
+    }
+    header{
+        display: none;
+    }
+    .photos-header-text{
+    text-align: center;
+    color: rgb(48, 48, 48);
+    font-size: 10px;
+    border-bottom: #002588;
+    border-width: 1px;
+    padding-bottom: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+    }
+    .photos-grid{
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+    .photos-grid-one{
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+    .ind-photo{
+        width: 80%;
+        height: auto;
+        margin: 30px 10%;
+    }
 }

@@ -90,11 +90,23 @@ header{
 }
 .my-bio{
     display: none;
+}
+.my-bio-shown{
+    display: block;
+}
+.my-bio-desktop{
     font-size:15px;
-    margin: 60px 40px;
+    /*margin: 60px 40px;*/
     line-height: 30px;
-    width: auto;
+    width: 43%;
     height: auto;
+    color: white;
+    position: absolute;
+    top: 0;
+    margin-top: 20%;
+    margin-left: 45%;
+    line-height: 40px;
+    text-align: center;
 }
 .dark-container{
     color: white;
@@ -237,6 +249,23 @@ header{
     }
     .iphonex-dark-photo{
         display: none;
+    }
+    .my-bio{
+        display: none;
+    }
+    .my-bio-shown{
+        display: block;
+    }
+    .my-bio-desktop{
+        max-width: 70%;
+        font-size:15px;
+        line-height: 30px;
+        width: 70%;
+        height: auto;
+        color: #002588;
+        margin: 20% auto;
+        position: relative;
+        /* text-align: center; */
     }
 }
 @media (max-width:375px){

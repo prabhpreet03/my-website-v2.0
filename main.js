@@ -15,5 +15,11 @@ button.addEventListener("click", function(){
         button.innerHTML="Learn more about me"; 
         infoShown = false;
     }
-    
+});
+
+var blueMenuButton = document.querySelector(".blue-menu")
+var mobileNav = document.getElementById("mobile-nav");
+
+blueMenuButton.addEventListener("click", function(){
+    mobileNav.classList.toggle("mobile-nav");
 });

@@ -3,30 +3,47 @@ body, html {
   font-family: 'Montserrat', 'sans-serif';
   padding: 0px;
   margin:0px;
-  background-color: rgb(241, 241, 241);
+  background-color: rgb(255, 255, 255);
   overflow-x: hidden;
 }
-.main-nav-bar{
-    padding: 20px;
+.mobile-view-hidden{
+    display: none;
 }
-
+.background-two{
+display: none;
+}
+.main-nav-bar{
+    padding: 0 10px;
+    padding-bottom: 0px;
+}
+.main-nav-bar:hover{
+    color: rgb(0, 52, 196);
+    transition: .2s;
+}
 .blue-logo{
-    width: 263px;
-    height: 113px;
+    width: 65%;
+    margin-top: 10px;
+}
+.blue-menu{
+    display: none;
+    /* justify-content: flex-end; */
 }
 .navbar{
     list-style-type: none;
     display: flex;
+    margin-top: 18px;
 }
-a{
+.navbar a{
     text-decoration: none;
-    color: #002588;
-    font-size: 24px;
+    color: rgb(49, 49, 49);
+    font-size: 15;
 }
 header{
+    background-color: white;
     display: flex; 
     justify-content: space-between;
-    margin:10px 30px;
+    padding: 0px 100px; 
+    margin: 0 auto;  
 }
 .design-title{
     text-align: left;
@@ -37,6 +54,10 @@ header{
 .ui-grid{
     padding:30px;
     justify-content: center;
+}
+.mobile-photos-epp{
+    max-width: 95%;
+    margin-top: 50px;
 }
 .ui-photo{
     size: 60%;
@@ -53,6 +74,12 @@ header{
     margin: 0px 0px;
     width:auto;
     height: 2500px;
+}
+.design-type{
+    width: 100px;
+    height: 200px;
+    background-color: white;
+    margin: 100px 50px;
 }
 .light-container{
     background-color:#EAEAEA;

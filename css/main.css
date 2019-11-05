@@ -3,7 +3,7 @@ body, html {
   font-family: 'Montserrat', 'sans-serif';
   padding: 0px;
   margin:0px;
-  background-color: rgb(252, 249, 249);
+  background-color: rgb(255, 255, 255);
   overflow-x: hidden;
 }
 .mobile-view-hidden{
@@ -13,18 +13,17 @@ body, html {
 display: none;
 }
 .main-nav-bar{
-    padding: 20px;
+    padding: 0 10px;
     padding-bottom: 0px;
 }
-.main-nav-bar:hover{
-    color: blue;
-    transition: .5s;
+.navbar a:hover{
+    color: rgb(0, 52, 196);
+    font-size: 17;
+    transition: .3s;
 }
 .blue-logo{
-    object-fit: cover;
-    object-position: 100% 0;
-    width: 263px;
-    height: 70px;
+    width: 65%;
+    margin-top: 10px;
 }
 .blue-menu{
     display: none;
@@ -33,24 +32,26 @@ display: none;
 .navbar{
     list-style-type: none;
     display: flex;
+    margin-top: 18px;
 }
-a{
+.navbar a{
     text-decoration: none;
-    color: #002588;
-    font-size: 24px;
+    color: rgb(49, 49, 49);
+    font-size: 15;
 }
 header{
     background-color: white;
     display: flex; 
     justify-content: space-between;
-    padding: 5px 100px; 
+    padding: 0px 100px; 
     margin: 0 auto;  
 }
+/* **********************ALL OF THE NAV BAR HERE! */
 .background-picture {
-    max-width: 80%;
-    margin-left:10%;
-    margin-right: 10%;
-    margin-top: 70px;
+    max-width: 96%;
+    margin-left:2%;
+    margin-right: 2%;
+    margin-top: -10px;
     position: relative;
     margin-bottom: 100px;
 }
